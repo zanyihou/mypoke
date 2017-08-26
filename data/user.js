@@ -1,5 +1,5 @@
 user = {
-  "name" : "我自己",
+  "name" : "峰哥",
   "imgUrl" : "myself.jpg",
   "bean" : 10
 }
