@@ -5,7 +5,7 @@ server = require('http').createServer(app);
 io = require('socket.io').listen(server);
 
 app.use('/',express.static(__dirname + '/'));
-server.listen();
+server.listen(8081);
 var users = [];
 var usernum = 0;
 
