@@ -12,7 +12,7 @@ FastClick.attach(document.body);
 		var mygame = {};//全局的游戏变量
 		var myname = "";
 		var myinfo = {};
-		var socket = io.connect('http://127.0.0.1');
+		var socket = io.connect('http://127.0.0.1:8081');
 		socket.on('connect',function(){
 			socket.emit("connectGame");
 			console.log("connect sussccess");
