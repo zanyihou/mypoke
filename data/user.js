@@ -1,6 +1,6 @@
 user = {
   "name" : "峰哥",
   "imgUrl" : "myself.jpg",
-  "bean" : 10
+  "bean" : 1000
 }
 module.exports = user;
