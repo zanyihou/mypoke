@@ -12,7 +12,7 @@ FastClick.attach(document.body);
 		var mygame = {};//全局的游戏变量
 		var myname = "";
 		var myinfo = {};
-		var socket = io.connect('http://localhost:80');
+		var socket = io.connect('https://zanyihou.github.io/mypoke');
 		socket.on('connect',function(){
 			socket.emit("connectGame");
 			console.log("connect sussccess");
